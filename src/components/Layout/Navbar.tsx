@@ -91,7 +91,7 @@ const Navbar = () => {
         </button>
 
         {/* <!-- Desktop links --> */}
-        <ul className="items-center justify-center hidden w-1/2 lg:flex">
+        <ul className="items-center justify-between hidden lg:flex">
           {renderLinks}
         </ul>
       </div>
@@ -99,7 +99,7 @@ const Navbar = () => {
       {isNavOpen && (
         <ul
           id="mobile-menu"
-          className="flex flex-col items-center space-y-3 lg:hidden"
+          className="flex flex-col items-center space-y-3 lg:hidden pb-6"
           // @click.away="isNavOpen = false"
         >
           {renderLinks}

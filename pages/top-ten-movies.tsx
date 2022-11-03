@@ -10,7 +10,7 @@ const TopTenMovies = () => {
         desc="This are the top ten movies trending in the world right now"
       />
 
-      <main className="w-full py-8">
+      <main className="w-full py-8 px-8">
         <TopMovies />
       </main>
     </div>
