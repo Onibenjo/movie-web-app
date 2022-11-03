@@ -24,7 +24,10 @@ const MovieDetails = ({ movie }: { movie?: IMovieDetails }) => {
             Directed by {movie.director}
           </div>
           <div className="rent">
-            <div className="flex items-center">Rent: {movie.rentPrice}</div>
+            <div className="flex items-center">
+              Rent:{" "}
+              <span className="text-xl font-bold ml-2">{movie.rentPrice}</span>
+            </div>
           </div>
           <div className="flex justify-between text-xl">
             <div className="flex items-center font-medium">
