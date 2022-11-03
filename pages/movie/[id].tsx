@@ -13,8 +13,8 @@ const MovieDetailsPage = () => {
   return (
     <main>
       <Head>
-        <title>Kontist Movie</title>
-        <meta name="description" content="Movie streaming app" />
+        <title>{data ? data.name : ""} | Kontist Movie</title>
+        <meta name="description" content={data?.storyline.substring(0, 120)} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container mx-auto">
