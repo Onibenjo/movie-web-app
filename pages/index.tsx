@@ -1,15 +1,11 @@
+import SEO from "@/components/common/SEO";
 import MovieCarousel from "@/components/Movies/MovieCarousel";
 import MovieList from "@/components/Movies/MovieList";
-import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="container mx-auto">
-      <Head>
-        <title>Kontist Movie</title>
-        <meta name="description" content="Movie streaming app" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SEO title="Kontist Movie" desc="Movie streaming app" />
 
       <main className="w-full overflow-x-hidden max-w-[100vw] px-8">
         <MovieCarousel />

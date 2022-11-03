@@ -1,15 +1,11 @@
+import SEO from "@/components/common/SEO";
 import SubscriptionPlans from "@/components/Movies/SubscriptionPlans";
-import Head from "next/head";
 import React from "react";
 
 const TopTenMovies = () => {
   return (
     <div className="mx-auto">
-      <Head>
-        <title>Subscriptions</title>
-        <meta name="description" content="Flexible plans" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SEO title="Subscriptions | Kontist Movie" desc="Flexible plans" />
 
       <main className="w-full">
         <SubscriptionPlans />
