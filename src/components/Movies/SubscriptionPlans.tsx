@@ -10,7 +10,7 @@ const plans = [
       monthly: 29,
       annually: 29 * 12 - 199,
     },
-    features: ["One project", "Your dashboard"],
+    features: ["One lorem", "Your dashboard"],
   },
   {
     name: "Basic",
@@ -20,9 +20,9 @@ const plans = [
       annually: 59 * 12 - 100,
     },
     features: [
-      "Two projects",
+      "Two lorem",
       "Your dashboard",
-      "Components included",
+      "lorem included",
       "Advanced charts",
     ],
   },
@@ -34,9 +34,9 @@ const plans = [
       annually: 139 * 12 - 100,
     },
     features: [
-      "Unlimited projects",
+      "Unlimited lorem",
       "Your dashboard",
-      "+300 Components",
+      "+300 ipsum",
       "Chat support",
     ],
   },

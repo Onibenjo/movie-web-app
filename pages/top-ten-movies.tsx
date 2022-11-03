@@ -14,7 +14,7 @@ const TopTenMovies = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-full">
+      <main className="w-full py-8">
         <TopMovies />
       </main>
     </div>
