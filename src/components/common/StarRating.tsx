@@ -37,7 +37,7 @@ export const StarRating = ({ rating }: StarRatingProps) => {
   return (
     <div>
       <div style={styles.starsOuter}>
-        <div id="rate-container" style={containerStyle}>
+        <div id="rate-container" style={containerStyle} className="relative">
           <div style={styles.starsEmptyInner} className="flex">
             {Array(Math.floor(rating))
               .fill(1)

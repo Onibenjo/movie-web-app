@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-full overflow-x-hidden">
+      <main className="w-full overflow-x-hidden max-w-[100vw] px-8">
         <MovieCarousel />
         <MovieList />
       </main>

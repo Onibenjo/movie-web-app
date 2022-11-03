@@ -1,9 +1,6 @@
-import { getMovieCarousel, getMovies, getTop10Movies } from "@/helpers/api";
+import { getTop10Movies } from "@/helpers/api";
 import { useQuery } from "@tanstack/react-query";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
-import { StarRating } from "../common/StarRating";
 import Movie from "./Movie";
 
 const TopMovies = () => {

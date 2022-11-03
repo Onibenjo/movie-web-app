@@ -37,7 +37,7 @@ const Movie = ({
           </Link>
           <Link
             href={routes.subscriptions}
-            className="bg-red-500 text-white px-2 py-1 rounded-md text-sm font-medium">
+            className="bg-green-300 text-white px-2 py-1 rounded-md text-sm font-medium">
             Subscribe
           </Link>
         </div>
