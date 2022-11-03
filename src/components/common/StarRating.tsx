@@ -42,7 +42,7 @@ export const StarRating = ({ rating }: StarRatingProps) => {
             {Array(Math.floor(rating))
               .fill(1)
               .map((_, i) => (
-                <AiFillStar key={i} className=" fill-accent" />
+                <AiFillStar key={i} className=" fill-indigo-500" />
               ))}
           </div>
           <div style={styles.starsInner} className="flex">
