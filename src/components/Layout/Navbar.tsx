@@ -29,7 +29,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="/" className={clsx(isActive(routes.topTen), style)}>
+            <Link
+              href="/"
+              className={clsx(isActive(routes.subscriptions), style)}>
               Landing page
             </Link>
           </li>
